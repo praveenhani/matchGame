@@ -1,0 +1,35 @@
+.image-item {
+  list-style-type: none;
+}
+.thumbnail-image {
+  width: 150px;
+  height: 165px;
+  margin: 20px;
+}
+.button-img {
+  background-color: transparent;
+  border-width: 0px;
+}
+@media (max-width: 396px) {
+  .thumbnail-image {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .thumbnail-image {
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .thumbnail-image {
+    width: 130px;
+    height: 140px;
+    margin: 15px;
+  }
+}

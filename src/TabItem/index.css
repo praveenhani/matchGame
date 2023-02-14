@@ -1,0 +1,33 @@
+.tab-item {
+  list-style-type: none;
+  margin: 10px;
+}
+.tab-button {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 800;
+  background-color: transparent;
+  border-bottom: 3px;
+  border-width: 0px;
+  border-style: solid;
+  font-size: 20px;
+}
+.color {
+  color: #fec653;
+  border-bottom: 3px;
+  border-color: #fec653;
+  border-style: solid;
+}
+
+@media (max-width: 396px) {
+  .tab-button {
+    border-bottom: 3px;
+    font-size: 15px;
+  }
+  .color {
+    border-bottom: 3px;
+    font-size: 15px;
+    border-color: #fec653;
+    border-style: solid;
+  }
+}

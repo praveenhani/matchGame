@@ -1,0 +1,34 @@
+import './index.css'
+
+const Navbar = props => {
+  const {topScore, timeRemaining} = props
+
+  return (
+    <nav className="navbar">
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/match-game-website-logo.png"
+        alt="website logo"
+        className="website-logo"
+      />
+      <ul className="score-time-container">
+        <li>
+          <p className="score">
+            score:<span className="highlight"> {topScore}</span>
+          </p>
+        </li>
+        <div className="timer-container">
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/match-game-timer-img.png"
+            alt="timer"
+            className="timer-img"
+          />
+          <li>
+            <p className="highlight">{timeRemaining} sec</p>
+          </li>
+        </div>
+      </ul>
+    </nav>
+  )
+}
+
+export default Navbar
